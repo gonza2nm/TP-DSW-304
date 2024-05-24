@@ -33,17 +33,17 @@ imagen del modelo:
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Habitación {depende de} CRUD Tipo Habitacion<br>2. CRUD Cliente {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de habitaciones filtrado por tipo de habitación, muestra nro y tipo de habitación => detalle CRUD Habitacion<br> 2. Listado de reservas filtrado por rango de fecha, muestra nro de habitación, fecha inicio y fin estadía, estado y nombre del cliente => detalle muestra datos completos de la reserva y del cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva|
+|CRUD simple|1. CRUD Cine<br>2. CRUD Comida<br>3. CRUD Género<br>4. CRUD Usuario|
+|CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine|
+|Listado<br>+<br>detalle| 1. Listado de película por género -> detalle CRUD película (nombre, descripción<br> 2. Mostrar estrenos del próximo mes|
+|CUU/Epic|1. Dar de alta funciones<br>2. Comprar comida.|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Tipo Habitacion<br>2. CRUD Servicio<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD Habitación<br>6. CRUD Empleado<br>7. CRUD Cliente|
-|CUU/Epic|1. Reservar una habitación para la estadía<br>2. Realizar el check-in de una reserva<br>3. Realizar el check-out y facturación de estadía y servicios|
+|CRUD |1. CRUD Comida<br>2. CRUD Eventos<br>3. CRUD Sorteo<br>4. CRUD Promociones(*)|
+|CUU/Epic|1. Compra entrada<br>2. Cancelar compra<br>3. Promociones de Entrada<br>4. Evento<br>5. Sorteo|
 
 
 ### Alcance Adicional Voluntario
@@ -52,7 +52,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Estadía del día filtrado por fecha muestra, cliente, habitaciones y estado <br>2. Reservas filtradas por cliente muestra datos del cliente y de cada reserve fechas, estado cantidad de habitaciones y huespedes|
-|CUU/Epic|1. Consumir servicios<br>2. Cancelación de reserva|
-|Otros|1. Envío de recordatorio de reserva por email|
+|Listados |1. Listado de promoción de comida.<br>2. Listado películas más vistas<br>3. Mostrar películas que están por salir de cartelera (no más funciones)<br>4. Listado por formato de película (2D,3D,4D)|
+|CUU/Epic|1. Realizar sorteo<br>|
+|Otros|1. Envío de recordatorio de película|
 
