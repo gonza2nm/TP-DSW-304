@@ -1,9 +1,3 @@
-Backend: https://github.com/gonza2nm/cineUTN-backend
-
-FrontEnd: https://github.com/gonza2nm/cineUTN-frontend
-
-
-
 # TP DSW
 tags: #dsw #tp
 
