@@ -35,7 +35,7 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Cine<br>2. CRUD Comida<br>3. CRUD Género<br>4. CRUD Usuario|
 |CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine|
-|Listado<br>+<br>detalle| 1. Listado de película por género -> detalle CRUD película (nombre, descripción<br> 2. Mostrar estrenos del próximo mes|
+|Listado<br>+<br>detalle| 1. Listado de película por género -> detalle CRUD película (nombre, descripción)<br> 2. Mostrar estrenos del próximo mes|
 |CUU/Epic|1. Dar de alta funciones<br>2. Comprar comida.|
 
 
