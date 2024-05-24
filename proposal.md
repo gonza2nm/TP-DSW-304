@@ -19,7 +19,7 @@ Los encargados administran las películas, las comidas, los géneros, y las prom
 Los clientes deben registrarse en el sistema para luego poder hacer la compra de entradas y/o comida. También pueden consultar las películas y próximos estrenos. 
 
 ### Modelo
-[Imagen del modelo]((http://hyperlinkToGihubOrGitlab)(https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D))
+* [Imagen del modelo]((http://hyperlinkToGihubOrGitlab)(https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D))
 
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
