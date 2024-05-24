@@ -9,15 +9,17 @@
 
 
 ### Repositorios
-* [frontend app]((https://github.com/gonza2nm/cineUTN-frontend))
-* [backend app]((https://github.com/gonza2nm/cineUTN-backend))
-*Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
+* [frontend app]((http://hyperlinkToGihubOrGitlab)(https://github.com/gonza2nm/cineUTN-frontend))
+* [backend app]((http://hyperlinkToGihubOrGitlab)(https://github.com/gonza2nm/cineUTN-backend))
 
-## Tema
+## Tema: Cine
 ### Descripción
-*2 a 6 líneas describiendo el negocio (menos es más)*
+Cine UTN es una franquicia de cines. Un cine tiene un dueño y sus respectivos encargados. El dueño registra su nuevo cine, puede modificar salas y administrar a los encargados. Además se encarga de todo lo referido a los sorteos y eventos.
+Los encargados administran las películas, las comidas, los géneros, y las promociones.  
+Los clientes deben registrarse en el sistema para luego poder hacer la compra de entradas y/o comida. También pueden consultar las películas y próximos estrenos. 
 
 ### Modelo
+[Modelo]((http://hyperlinkToGihubOrGitlab)(https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D))
 ![imagen del modelo]()
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
