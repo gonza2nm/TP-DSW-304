@@ -9,8 +9,8 @@
 
 
 ### Repositorios
-* [frontend app]((http://hyperlinkToGihubOrGitlab)(https://github.com/gonza2nm/cineUTN-frontend))
-* [backend app]((http://hyperlinkToGihubOrGitlab)(https://github.com/gonza2nm/cineUTN-backend))
+* [frontend app](https://github.com/gonza2nm/cineUTN-frontend)
+* [backend app](https://github.com/gonza2nm/cineUTN-backend)
 
 ## Tema: Cine
 ### Descripción
