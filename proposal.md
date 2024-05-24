@@ -21,7 +21,7 @@ Los clientes deben registrarse en el sistema para luego poder hacer la compra de
 ### Modelo
 * [Modelo](https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D)
   
-[imagen del modelo](https://drive.google.com/file/d/1pCvPwV4grpSzm78EUiYKmU_U586tpWAS/view?usp=drive_link)
+* [imagen del modelo](https://drive.google.com/file/d/1pCvPwV4grpSzm78EUiYKmU_U586tpWAS/view?usp=drive_link)
 
 *Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
 
