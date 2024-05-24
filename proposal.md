@@ -2,11 +2,15 @@
 
 ## Grupo
 ### Integrantes
-* legajo - Apellido(s), Nombre(s)
+* Mansilla Gonzalo Leg: 49859
+* Simbel Pagliero,Santino Lucio Leg: 49438
+* Fernández, Martina Leg: 48033
+* Vazquez, Sabrina Leg: 47469 
+
 
 ### Repositorios
-* [frontend app](http://hyperlinkToGihubOrGitlab)
-* [backend app](http://hyperlinkToGihubOrGitlab)
+* [frontend app]([http://hyperlinkToGihubOrGitlab](https://github.com/gonza2nm/cineUTN-frontend))
+* [backend app]([http://hyperlinkToGihubOrGitlab](https://github.com/gonza2nm/cineUTN-backend))
 *Nota*: si utiliza un monorepo indicar un solo link con fullstack app.
 
 ## Tema
