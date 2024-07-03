@@ -14,22 +14,19 @@
 
 ## Tema: Cine
 ### Descripción
-Cine UTN es una franquicia de cines. Un cine tiene un dueño y sus respectivos encargados. El dueño registra su nuevo cine, puede modificar salas y administrar a los encargados. Además se encarga de todo lo referido a los sorteos y eventos.
-Los encargados administran las películas, las comidas, los géneros, y las promociones.  
-Los clientes deben registrarse en el sistema para luego poder hacer la compra de entradas y/o comida. También pueden consultar las películas y próximos estrenos. 
+Cine UTN es una franquicia de cines. Un cine tiene sus respectivos encargados. el encargado puede modificar salas, se ocupa todo lo referido a los sorteos, sorteos,
+administran las películas, las productos, los géneros, y las promociones.  
+Los clientes deben registrarse en el sistema para luego poder hacer la compra de entradas y/o producto(Promocion que incluye varias comidas o una comida y o bebida).
+También pueden consultar las películas y próximos estrenos. 
 
 ### Modelo
-* [Modelo](https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D)
+* [Modelo]([https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D](https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22CYPBR2cQfaJ89t38bLuB%22%7D))
   
-* [imagen del modelo](https://drive.google.com/file/d/1pCvPwV4grpSzm78EUiYKmU_U586tpWAS/view?usp=drive_link)
-
-*Nota*: incluir un link con la imagen de un modelo, puede ser modelo de dominio, diagrama de clases, DER. Si lo prefieren pueden utilizar diagramas con [Mermaid](https://mermaid.js.org) en lugar de imágenes.
+* [imagen del modelo](https://drive.google.com/file/d/1IeilQQaufd0_frqWFRLt9yLZ62qDSrkx/view?usp=drive_link))
 
 ## Alcance Funcional 
 
 ### Alcance Mínimo
-
-*Nota*: el siguiente es un ejemplo para un grupo de 3 integrantes para un sistema de hotel. El 
 
 Regularidad:
 |Req|Detalle|
@@ -39,17 +36,13 @@ Regularidad:
 |Listado<br>+<br>detalle| 1. Listado de película por género -> detalle CRUD película (nombre, descripción)<br> 2. Mostrar estrenos del próximo mes|
 |CUU/Epic|1. Dar de alta funciones<br>2. Comprar comida.|
 
-
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Comida<br>2. CRUD Eventos<br>3. CRUD Sorteo<br>4. CRUD Promociones(*)|
 |CUU/Epic|1. Compra entrada<br>2. Cancelar compra<br>3. Promociones de Entrada<br>4. Evento<br>5. Sorteo|
 
-
 ### Alcance Adicional Voluntario
-
-*Nota*: El Alcance Adicional Voluntario es opcional, pero ayuda a que la funcionalidad del sistema esté completa y será considerado en la nota en función de su complejidad y esfuerzo.
 
 |Req|Detalle|
 |:-|:-|
