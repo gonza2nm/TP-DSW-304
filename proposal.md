@@ -14,15 +14,20 @@
 
 ## Tema: Cine
 ### Descripción
-Cine UTN es una franquicia de cines. Un cine tiene sus respectivos encargados. el encargado puede modificar salas, se ocupa todo lo referido a los sorteos, sorteos,
-administran las películas, las productos, los géneros, y las promociones.  
-Los clientes deben registrarse en el sistema para luego poder hacer la compra de entradas y/o producto(Promocion que incluye varias comidas o una comida y o bebida).
-También pueden consultar las películas y próximos estrenos. 
+Cine UTN es una franquicia de cines.
+Un cine tiene encargados que se ocupan de todo lo referido a los sorteos y eventos, también administran las películas, los géneros,los productos, las promociones y las salas.
+
+Los clientes pueden consultar películas y próximos estrenos. una vez registrados en el sistema podrán hacer la compra de entradas y/o productos (Los cuales pueden tener promociones). 
+
+Para una película y una sala se generan funciones, de esas funciones se pueden comprar las entradas en lo que es una compra, a la cual se le pueden agregar los productos comprados.
+
 
 ### Modelo
-* [Modelo]([https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22qWFum7RDt3cktn1nixqp%22%7D](https://app.diagrams.net/#G11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3#%7B%22pageId%22%3A%22CYPBR2cQfaJ89t38bLuB%22%7D))
+* [Modelo](https://drive.google.com/file/d/11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3/view?usp=sharing
+)
   
-* [imagen del modelo](https://drive.google.com/file/d/1IeilQQaufd0_frqWFRLt9yLZ62qDSrkx/view?usp=drive_link))
+* [imagen del modelo](https://drive.google.com/file/d/11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3/view?usp=sharing
+)
 
 ## Alcance Funcional 
 
@@ -31,22 +36,22 @@ También pueden consultar las películas y próximos estrenos.
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Cine<br>2. CRUD Comida<br>3. CRUD Género<br>4. CRUD Usuario|
-|CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine|
+|CRUD simple|1. CRUD Cine<br>2. CRUD Compra<br>3. CRUD Género<br>4. CRUD Usuario|
+|CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine<br>3. CRUD Funcion {depende de} CRUD Pelicula y CRUD sala<br>4. CRUD Entrada {depende de} CRUD Funcion| 
 |Listado<br>+<br>detalle| 1. Listado de película por género -> detalle CRUD película (nombre, descripción)<br> 2. Mostrar estrenos del próximo mes|
 |CUU/Epic|1. Dar de alta funciones<br>2. Comprar comida.|
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Comida<br>2. CRUD Eventos<br>3. CRUD Sorteo<br>4. CRUD Promociones(*)|
+|CRUD |1. CRUD Producto<br>2. CRUD Evento<br>3. CRUD Sorteo<br>4. CRUD Promocion(*)|
 |CUU/Epic|1. Compra entrada<br>2. Cancelar compra<br>3. Promociones de Entrada<br>4. Evento<br>5. Sorteo|
 
 ### Alcance Adicional Voluntario
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de promoción de comida.<br>2. Listado películas más vistas<br>3. Mostrar películas que están por salir de cartelera (no más funciones)<br>4. Listado por formato de película (2D,3D,4D)|
+|Listados |1. Listado de promoción de producto.<br>2. Listado películas más vistas<br>3. Mostrar películas que están por salir de cartelera (no más funciones)<br>4. Mostrar detalle compra con QR|
 |CUU/Epic|1. Realizar sorteo<br>|
 |Otros|1. Envío de recordatorio de película|
 
