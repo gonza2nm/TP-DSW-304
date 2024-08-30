@@ -36,16 +36,16 @@ Para una película y una sala se generan funciones, de esas funciones se pueden 
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Cine<br>2. CRUD Compra<br>3. CRUD Género<br>4. CRUD Usuario|
-|CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine<br>3. CRUD Funcion {depende de} CRUD Pelicula y CRUD sala<br>4. CRUD Entrada {depende de} CRUD Funcion| 
-|Listado<br>+<br>detalle| 1. Listado de película por género -> detalle CRUD película (nombre, descripción)<br> 2. Mostrar estrenos del próximo mes|
-|CUU/Epic|1. Dar de alta funciones<br>2. Comprar comida.|
+|CRUD simple|1. CRUD Cine<br>2. CRUD Género<br>3. CRUD Usuario|
+|CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine<br>3. CRUD Funcion {depende de} CRUD Pelicula y CRUD sala| 
+|Listado<br>+<br>detalle| 1. Listado de película por cine<br> 2. Mostrar estrenos del próximo mes|
+|CUU/Epic|1. CRUD Entrada depende de función <br>2. Comprar comida.|
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Producto<br>2. CRUD Evento<br>3. CRUD Sorteo<br>4. CRUD Promocion(*)|
-|CUU/Epic|1. Compra entrada<br>2. Cancelar compra<br>3. Promociones de Entrada<br>4. Evento<br>5. Sorteo|
+|CUU/Epic|1. Compra entrada<br>2. Cancelar compra<br>3. Promociones de Productos<br>4. Evento<br>5. Sorteo|
 
 ### Alcance Adicional Voluntario
 
