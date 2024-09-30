@@ -38,20 +38,20 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Cine<br>2. CRUD Género<br>3. CRUD Usuario|
 |CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine<br>3. CRUD Funcion {depende de} CRUD Pelicula y CRUD sala| 
-|Listado<br>+<br>detalle| 1. Listado de película por cine<br> 2. Mostrar estrenos del próximo mes|
-|CUU/Epic|1. CRUD Entrada depende de función <br>2. Comprar comida.|
+|Listado<br>+<br>detalle| 1. Listado de película por cine y genero<br> 2. Mostrar estrenos del próximo mes|
+|CUU/Epic|1. Cancelar compra <br>2. Compra entradas.|
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |CRUD |1. CRUD Producto<br>2. CRUD Evento<br>3. CRUD Sorteo<br>4. CRUD Promocion(*)|
-|CUU/Epic|1. Compra entrada<br>2. Cancelar compra<br>3. Promociones de Productos<br>4. Evento<br>5. Sorteo|
+|CUU/Epic|1. Comprar productos <br>2. Promociones de Productos<br>3. Evento<br>4. Sorteo|
 
 ### Alcance Adicional Voluntario
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de promoción de producto.<br>2. Listado películas más vistas<br>3. Mostrar películas que están por salir de cartelera (no más funciones)<br>4. Mostrar detalle compra con QR|
+|Listados |1. Listado de promoción de producto.<br>2. Listado películas más vistas<br>3. Mostrar películas que están por salir de cartelera (no más funciones)|
 |CUU/Epic|1. Realizar sorteo<br>|
-|Otros|1. Envío de recordatorio de película|
+|Otros|1. Envío de recordatorio de película.<br> Mostrar detalle compra con QR|
 
