@@ -13,7 +13,7 @@
 * [backend app](https://github.com/gonza2nm/cineUTN-backend)
 ### Deploy
 * [CineUTN](https://cineutn.vercel.app/)
-Solo funciona lanzando el servidor del back local hasta el momento
+Solo funciona lanzando el servidor del back en local hasta el momento
 ## Tema: Cine
 ### Descripción
 Cine UTN es una franquicia de cines.
