@@ -11,7 +11,8 @@
 ### Repositorios
 * [frontend app](https://github.com/gonza2nm/cineUTN-frontend)
 * [backend app](https://github.com/gonza2nm/cineUTN-backend)
-
+### Deploy
+[CineUTN]((https://cineutn.vercel.app/))
 ## Tema: Cine
 ### Descripción
 Cine UTN es una franquicia de cines.
