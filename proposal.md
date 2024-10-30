@@ -4,7 +4,6 @@
 ### Integrantes
 * Mansilla Gonzalo Leg: 49859
 * Simbel Pagliero,Santino Lucio Leg: 49438
-* Fernández, Martina Leg: 48033
 * Vazquez, Sabrina Leg: 47469 
 
 
