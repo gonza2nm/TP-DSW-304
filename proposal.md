@@ -52,7 +52,7 @@ Adicionales para Aprobación
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de promoción de producto.<br>2. Listado películas más vistas<br>3. Mostrar películas que están por salir de cartelera (no más funciones)|
+|Listados |1. Listado de promoción de producto.<br>2. Listado películas más vistas<br>3. Listado de eventos con filtros por cine|
 |CUU/Epic|1. Realizar sorteo<br>|
 |Otros|1. Envío de recordatorio de película.<br> Mostrar detalle compra con QR|
 
