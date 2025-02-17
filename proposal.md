@@ -16,7 +16,7 @@ Solo funciona lanzando el servidor del back en local hasta el momento
 ## Tema: Cine
 ### Descripción
 Cine UTN es una franquicia de cines.
-Un cine tiene encargados que se ocupan de todo lo referido a los sorteos y eventos, también administran las películas, los géneros,los productos, las promociones y las salas.
+Un cine tiene encargados que administran los cines, las películas, los géneros, los productos, las promociones,las salas y los eventos. Asi como tambien de validar las entradas de los usuarios usando codigo QR.
 
 Los clientes pueden consultar películas y próximos estrenos. una vez registrados en el sistema podrán hacer la compra de entradas y/o productos (Los cuales pueden tener promociones). 
 
@@ -27,7 +27,7 @@ Para una película y una sala se generan funciones, de esas funciones se pueden 
 * [Modelo](https://drive.google.com/file/d/11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3/view?usp=sharing
 )
   
-* [imagen del modelo](https://drive.google.com/file/d/11WrESic0HIv2KUoiPSt1pC8J9RV4a3Y3/view?usp=sharing
+* [imagen del modelo](https://drive.google.com/file/d/1eIVTMa1BZejPq6ZIsRK5IbygJdyH3Go3/view?usp=drive_link
 )
 
 ## Alcance Funcional 
@@ -40,19 +40,19 @@ Regularidad:
 |CRUD simple|1. CRUD Cine<br>2. CRUD Género<br>3. CRUD Usuario|
 |CRUD dependiente|1. CRUD Pelicula {depende de} CRUD Genero<br>2. CRUD Sala {depende de} CRUD Cine<br>3. CRUD Funcion {depende de} CRUD Pelicula y CRUD sala| 
 |Listado<br>+<br>detalle| 1. Listado de película por cine y genero<br> 2. Mostrar estrenos del próximo mes|
-|CUU/Epic|1. Cancelar compra <br>2. Compra entradas.|
+|CUU/Epic|1. Cancelar compra <br>2. Comprar entradas.|
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Producto<br>2. CRUD Evento<br>3. CRUD Sorteo<br>4. CRUD Promocion(*)|
-|CUU/Epic|1. Comprar productos <br>2. Promociones de Productos<br>3. Evento<br>4. Sorteo|
+|CRUD |1. CRUD Producto<br>2. CRUD Evento<br>3. CRUD Promocion|
+|CUU/Epic|1. Comprar productos <br>2. Promociones de Productos<br>3. Evento|
 
 ### Alcance Adicional Voluntario
 
 |Req|Detalle|
 |:-|:-|
-|Listados |1. Listado de promoción de producto.<br>2. Listado películas más vistas<br>3. Listado de eventos con filtros por cine|
-|CUU/Epic|1. Realizar sorteo<br>|
-|Otros|1. Envío de recordatorio de película.<br> Mostrar detalle compra con QR|
+|Listados |1. Listado de promoción de producto.<br>2.Listado de eventos con filtros por cine|
+|CUU/Epic||
+|Otros|1. Envío de recordatorio de película por mail.<br> Validar compras con QR|
 
